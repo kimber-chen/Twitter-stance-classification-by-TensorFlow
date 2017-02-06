@@ -1,4 +1,4 @@
-# Tensorflow for Twitter stances classification
+#Tensorflow for Twitter stances classification
 Use Tensorflow to run CNN, and RNN model. And add word2vec to represent the text.
 
 The original data can be found here:
