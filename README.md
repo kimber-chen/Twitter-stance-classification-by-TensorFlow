@@ -7,10 +7,9 @@ The original data can be found here:
 ##1.CNN_word embedding
 
 Requrement(Optional)
-Download full dataset "rumoureval-data"
-
-RUN:
-`python train.py`
+  * Download full dataset "rumoureval-data"
+  * RUN:
+  * `python train.py`
 
 Method from [IMPLEMENTING A CNN FOR TEXT CLASSIFICATION IN TENSORFLOW](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)
 
@@ -20,16 +19,14 @@ My code is for competition [RumourEval-2017, subtask A](https://competitions.cod
 
 
 Requrement(Optional)
-Download [vocab.npy](https://www.dropbox.com/s/ahrz91159wtrgx1/vocab.npy?dl=1)
-or 
-Downolad GloVe to build the vocab.npy data. This will take the program for about an hour.
-
-RUN:
-`python rnn_stance.py`
+  * Download [vocab.npy](https://www.dropbox.com/s/ahrz91159wtrgx1/vocab.npy?dl=1)
+  * OR  Downolad GloVe to build the vocab.npy data. This will take the program for about an hour.
+  * RUN:
+  * `python rnn_stance.py`
 
 GloVe for word2vec expression.
 LOO (Leave One Out) to evaluate the result. That is, use only one conversion thread as testing data. The rest data as training data. 
 
 Then we compare with other learning method. Performance especial good for F1 method.
-![alt tag]https://dl.dropboxusercontent.com/content_link/01YzTo9CTEKsjKo46on7A00THxV2txbUbsiCfQQ4wthpa5Qkc30qayYbgMIAipXt/file
+![alt tag](https://dl.dropboxusercontent.com/content_link/01YzTo9CTEKsjKo46on7A00THxV2txbUbsiCfQQ4wthpa5Qkc30qayYbgMIAipXt/file)
 Reference: M. Lukasik, P. K. Srijith, D. Vu, K. Bontcheva, A. Zubiaga, T. Cohn. Hawkes Processes for Continuous Time Sequence Classification: an Application to Rumour Stance Classification in Twitter. ACL. 2016.)
