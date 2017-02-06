@@ -27,6 +27,6 @@ Requrement(Optional)
 GloVe for word2vec expression.
 LOO (Leave One Out) to evaluate the result. That is, use only one conversion thread as testing data. The rest data as training data. 
 
-Then we compare with other learning method. Performance especial good for F1 method.
+Then we compare with other learning method on different rumor events. Performance especial good for F1 measure.
 ![alt tag](https://www.dropbox.com/s/zf372v2i5qygeo2/Twitter_stance.PNG?raw=1)
 Reference: M. Lukasik, P. K. Srijith, D. Vu, K. Bontcheva, A. Zubiaga, T. Cohn. Hawkes Processes for Continuous Time Sequence Classification: an Application to Rumour Stance Classification in Twitter. ACL. 2016.)
