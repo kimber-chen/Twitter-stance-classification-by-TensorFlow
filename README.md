@@ -1,4 +1,4 @@
-#Tensorflow for Twitter stances classification
+#Tensorflow Twitter stances classification
 Use Tensorflow to run CNN, and RNN model. And add word2vec to represent the text.
 
 The original data can be found here:
@@ -8,6 +8,7 @@ The original data can be found here:
 
 Requrement(Optional)
 Download full dataset "rumoureval-data"
+
 RUN:
 `python train.py`
 
@@ -22,6 +23,7 @@ Requrement(Optional)
 Download [vocab.npy](https://www.dropbox.com/s/ahrz91159wtrgx1/vocab.npy?dl=1)
 or 
 Downolad GloVe to build the vocab.npy data. This will take the program for about an hour.
+
 RUN:
 `python rnn_stance.py`
 
@@ -29,4 +31,5 @@ GloVe for word2vec expression.
 LOO (Leave One Out) to evaluate the result. That is, use only one conversion thread as testing data. The rest data as training data. 
 
 Then we compare with other learning method. Performance especial good for F1 method.
+![alt tag]https://dl.dropboxusercontent.com/content_link/01YzTo9CTEKsjKo46on7A00THxV2txbUbsiCfQQ4wthpa5Qkc30qayYbgMIAipXt/file
 Reference: M. Lukasik, P. K. Srijith, D. Vu, K. Bontcheva, A. Zubiaga, T. Cohn. Hawkes Processes for Continuous Time Sequence Classification: an Application to Rumour Stance Classification in Twitter. ACL. 2016.)
