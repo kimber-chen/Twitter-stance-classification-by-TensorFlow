@@ -1,6 +1,6 @@
 #Tensorflow Twitter stances classification
 Use Tensorflow to run CNN, and RNN model. And add word2vec to represent the text.
-
+Ipython file is ready to run. Please check the following description for more detail.
 The original data can be found here:
 [PHEME rumour scheme dataset: journalism use case, version 2](https://figshare.com/articles/PHEME_rumour_scheme_dataset_journalism_use_case/2068650)
 
