@@ -5,10 +5,10 @@ The original data can be found here:
 [PHEME rumour scheme dataset: journalism use case, version 2](https://figshare.com/articles/PHEME_rumour_scheme_dataset_journalism_use_case/2068650)
 
 Each tweet in the tree-structured thread will have to be categorised into one of the following four categories
-  *Support
-  *Deny
-  *Query
-  *Comment
+  * Support
+  * Deny
+  * Query
+  * Comment
   
 ##1.CNN_word embedding
 
